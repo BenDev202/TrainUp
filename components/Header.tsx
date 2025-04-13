@@ -3,6 +3,7 @@ import { BookMarkedIcon, BookOpen} from "lucide-react"
 import Link from "next/link"
 import { DarkModeToggle } from "./DarkModeToggle"
 import { Button } from "./ui/button"
+import SearchInput from "./SearchInput"
 
 function Header() {
   return (
@@ -21,7 +22,7 @@ function Header() {
                     </span>
                 </Link>
 
-                {/* <SearchInput /> */}
+                <SearchInput />
             </div>
 
             {/* Right */}
